@@ -11,8 +11,8 @@
     <TargetPlatform>x86</TargetPlatform>
 
     <!-- Framework35 | [Framework40] | Framework45 -->
-    <TargetFrameworkVersion>Framework45</TargetFrameworkVersion>
-
+    <TargetFrameworkVersion>Framework46</TargetFrameworkVersion>
+    <TestSessionTimeout>120000</TestSessionTimeout>
     <!-- Path to Test Adapters -->
     <!--<TestAdaptersPaths>%SystemDrive%\Temp\foo;%SystemDrive%\Temp\bar</TestAdaptersPaths>-->
   </RunConfiguration>
