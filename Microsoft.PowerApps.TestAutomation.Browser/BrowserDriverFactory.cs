@@ -21,6 +21,7 @@ namespace Microsoft.PowerApps.TestAutomation.Browser
             {
                 case BrowserType.Chrome:
                     var chromeService = ChromeDriverService.CreateDefaultService(options.DriversPath);
+                    chromeService.EnableVerboseLogging = true;
                     chromeService.HideCommandPromptWindow = options.HideDiagnosticWindow;
                     driver = new ChromeDriver(chromeService, options.ToChrome());
                     break;
